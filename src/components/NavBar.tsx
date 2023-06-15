@@ -22,7 +22,7 @@ const NavBar = (props: Props) => {
 						className='rounded-full'
 					/>
 				</motion.div>
-				<div className=''>
+				<div className='hidden md:flex mld:inline-flex items-center gap-7'>
 					<ul className='flex gap-7 text-[13px]'>
 						<Link
 							href={'#home'}
