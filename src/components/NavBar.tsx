@@ -45,7 +45,8 @@ const NavBar = (props: Props) => {
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.2 }}
 							>
-								<span>01. </span>About
+								<span className='text-textGreen'>01. </span>
+								About
 							</motion.li>
 						</Link>
 						<Link
@@ -57,7 +58,8 @@ const NavBar = (props: Props) => {
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.3 }}
 							>
-								<span>02. </span>Experience
+								<span className='text-textGreen'>02. </span>
+								Experience
 							</motion.li>
 						</Link>
 						<Link
@@ -69,7 +71,8 @@ const NavBar = (props: Props) => {
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.4 }}
 							>
-								<span>03. </span>Project
+								<span className='text-textGreen'>03. </span>
+								Project
 							</motion.li>
 						</Link>
 						<Link
@@ -81,7 +84,8 @@ const NavBar = (props: Props) => {
 								animate={{ y: 0, opacity: 1 }}
 								transition={{ duration: 0.5 }}
 							>
-								<span>04. </span>Contact
+								<span className='text-textGreen'>04. </span>
+								Contact
 							</motion.li>
 						</Link>
 					</ul>
