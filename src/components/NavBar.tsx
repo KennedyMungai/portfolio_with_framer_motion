@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -15,7 +16,16 @@ const NavBar = (props: Props) => {
 						className='rounded-full'
 					/>
 				</div>
-				<div className=''></div>
+				<div className=''>
+					<ul>
+						<Link
+							href={'#home'}
+							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
+						>
+							<li>Home</li>
+						</Link>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	)
