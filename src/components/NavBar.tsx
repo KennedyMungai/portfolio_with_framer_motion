@@ -89,7 +89,7 @@ const NavBar = (props: Props) => {
 							</motion.li>
 						</Link>
 					</ul>
-					<Link href='/docs/resume.pdf'>
+					<Link href='/docs/resume.pdf' target='_blank'>
 						<motion.button
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
