@@ -6,12 +6,7 @@ module.exports = {
 		'./src/app/**/*.{js,ts,jsx,tsx,mdx}'
 	],
 	theme: {
-		extend: {
-			fontFamily: {
-				bodyFont: ['Roboto', 'sans-serif'],
-				titleFont: ['Montserrat', 'sans-serif']
-			}
-		}
+		extend: {}
 	},
 	plugins: []
 }
