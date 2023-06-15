@@ -100,6 +100,8 @@ const NavBar = (props: Props) => {
 						</motion.button>
 					</Link>
 				</div>
+				{/* Small Icon Section */}
+				<div className='w-6 h-5 flex flex-col justify-between items-center md:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'></div>
 			</div>
 		</nav>
 	)
