@@ -17,12 +17,20 @@ const NavBar = (props: Props) => {
 					/>
 				</div>
 				<div className=''>
-					<ul>
+					<ul className='flex gap-7'>
 						<Link
 							href={'#home'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
 							<li>Home</li>
+						</Link>
+						<Link
+							href={'#home'}
+							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
+						>
+							<li>
+								<span>01. </span>About
+							</li>
 						</Link>
 					</ul>
 				</div>
