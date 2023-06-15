@@ -89,14 +89,16 @@ const NavBar = (props: Props) => {
 							</motion.li>
 						</Link>
 					</ul>
-					<motion.button
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 0.9 }}
-						className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
-					>
-						Resume
-					</motion.button>
+					<Link href='/docs/resume.pdf'>
+						<motion.button
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 0.9 }}
+							className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
+						>
+							Resume
+						</motion.button>
+					</Link>
 				</div>
 			</div>
 		</nav>
