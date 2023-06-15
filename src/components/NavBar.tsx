@@ -31,7 +31,7 @@ const NavBar = (props: Props) => {
 							<motion.li
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
-								transition={{ duration: 0.1 }}
+								transition={{ duration: 0.15 }}
 							>
 								Home
 							</motion.li>
@@ -43,7 +43,7 @@ const NavBar = (props: Props) => {
 							<motion.li
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
-								transition={{ duration: 0.2 }}
+								transition={{ duration: 0.3 }}
 							>
 								<span className='text-textGreen'>01. </span>
 								About
@@ -56,7 +56,7 @@ const NavBar = (props: Props) => {
 							<motion.li
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
-								transition={{ duration: 0.3 }}
+								transition={{ duration: 0.45 }}
 							>
 								<span className='text-textGreen'>02. </span>
 								Experience
@@ -69,7 +69,7 @@ const NavBar = (props: Props) => {
 							<motion.li
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
-								transition={{ duration: 0.4 }}
+								transition={{ duration: 0.6 }}
 							>
 								<span className='text-textGreen'>03. </span>
 								Project
@@ -82,7 +82,7 @@ const NavBar = (props: Props) => {
 							<motion.li
 								initial={{ y: -10, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
-								transition={{ duration: 0.5 }}
+								transition={{ duration: 0.75 }}
 							>
 								<span className='text-textGreen'>04. </span>
 								Contact
