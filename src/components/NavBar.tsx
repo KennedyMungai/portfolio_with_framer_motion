@@ -17,7 +17,7 @@ const NavBar = (props: Props) => {
 					/>
 				</div>
 				<div className=''>
-					<ul className='flex gap-7'>
+					<ul className='flex gap-7 text-sm'>
 						<Link
 							href={'#home'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
