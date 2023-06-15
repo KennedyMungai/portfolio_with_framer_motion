@@ -17,7 +17,7 @@ const NavBar = (props: Props) => {
 					/>
 				</div>
 				<div className=''>
-					<ul className='flex gap-7 text-sm'>
+					<ul className='flex gap-7 text-[13px]'>
 						<Link
 							href={'#home'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
@@ -25,11 +25,35 @@ const NavBar = (props: Props) => {
 							<li>Home</li>
 						</Link>
 						<Link
-							href={'#home'}
+							href={'#about'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
 							<li>
 								<span>01. </span>About
+							</li>
+						</Link>
+						<Link
+							href={'#experience'}
+							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
+						>
+							<li>
+								<span>02. </span>Experience
+							</li>
+						</Link>
+						<Link
+							href={'#project'}
+							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
+						>
+							<li>
+								<span>03. </span>Project
+							</li>
+						</Link>
+						<Link
+							href={'#contact'}
+							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
+						>
+							<li>
+								<span>04. </span>Contact
 							</li>
 						</Link>
 					</ul>
