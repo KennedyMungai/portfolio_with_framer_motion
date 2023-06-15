@@ -89,6 +89,13 @@ const NavBar = (props: Props) => {
 							</motion.li>
 						</Link>
 					</ul>
+					<motion.button
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ duration: 0.9 }}
+					>
+						Resume
+					</motion.button>
 				</div>
 			</div>
 		</nav>
