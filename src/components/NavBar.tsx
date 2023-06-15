@@ -28,39 +28,61 @@ const NavBar = (props: Props) => {
 							href={'#home'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
-							<li>Home</li>
+							<motion.li
+								initial={{ y: -10, opacity: 0 }}
+								animate={{ y: 0, opacity: 1 }}
+								transition={{ duration: 0.5 }}
+							>
+								Home
+							</motion.li>
 						</Link>
 						<Link
 							href={'#about'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
-							<li>
+							<motion.li
+								initial={{ y: -10, opacity: 0 }}
+								animate={{ y: 0, opacity: 1 }}
+								transition={{ duration: 0.5 }}
+							>
 								<span>01. </span>About
-							</li>
+							</motion.li>
 						</Link>
 						<Link
 							href={'#experience'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
-							<li>
+							<motion.li
+								initial={{ y: -10, opacity: 0 }}
+								animate={{ y: 0, opacity: 1 }}
+								transition={{ duration: 0.5 }}
+							>
 								<span>02. </span>Experience
-							</li>
+							</motion.li>
 						</Link>
 						<Link
 							href={'#project'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
-							<li>
+							<motion.li
+								initial={{ y: -10, opacity: 0 }}
+								animate={{ y: 0, opacity: 1 }}
+								transition={{ duration: 0.5 }}
+							>
 								<span>03. </span>Project
-							</li>
+							</motion.li>
 						</Link>
 						<Link
 							href={'#contact'}
 							className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ease-out'
 						>
-							<li>
+							<motion.li
+								initial={{ y: -10, opacity: 0 }}
+								animate={{ y: 0, opacity: 1 }}
+								transition={{ duration: 0.5 }}
+							>
 								<span>04. </span>Contact
-							</li>
+							</motion.li>
 						</Link>
 					</ul>
 				</div>
