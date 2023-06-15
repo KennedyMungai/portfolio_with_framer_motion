@@ -8,7 +8,7 @@ const NavBar = (props: Props) => {
 	return (
 		<nav className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-10 bg-bodyColor px-4'>
 			<div className='max-w-container h-full mx-auto py-1 flex items-center justify-between'>
-				<div className=''>
+				<motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration:0.5}}>
 					<Image
 						src={'/images/logo.png'}
 						width={80}
@@ -16,7 +16,7 @@ const NavBar = (props: Props) => {
 						alt={'Logo'}
 						className='rounded-full'
 					/>
-				</div>
+				</motion.div>
 				<div className=''>
 					<ul className='flex gap-7 text-[13px]'>
 						<Link
