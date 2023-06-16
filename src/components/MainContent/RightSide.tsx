@@ -10,6 +10,7 @@ const RightSide = (props: Props) => {
 					My Email Address
 				</p>
 			</Link>
+			<span className='w-[2px] h-32 bg-textGreen inline-flex'></span>
 		</div>
 	)
 }
