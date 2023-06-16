@@ -28,6 +28,19 @@ const Middle = (props: Props) => {
 					I build things for the web
 				</span>
 			</motion.h1>
+			<motion.p
+				initial={{ y: 10, opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ duration: 0.5, delay: 1 }}
+				className='text-textDark text-lg tracking-wide'
+			>
+				I am a web developer with over 5 years experience using React as
+				my go to frontend framework. I have a strong foundation in
+				front-end and back-end development. I specialize in creating
+				user friendly experiences for my users. I also have a lot of
+				experience creating machine learning models which serve as
+				recommendation systems for the backend of my apps.
+			</motion.p>
 		</section>
 	)
 }
