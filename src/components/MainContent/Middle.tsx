@@ -59,6 +59,9 @@ const Middle = (props: Props) => {
 					</Link>
 				</span>
 			</motion.p>
+			<button className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 max-w-[20rem]'>
+				Check Out My Projects
+			</button>
 		</section>
 	)
 }
