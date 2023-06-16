@@ -24,7 +24,7 @@ const Middle = (props: Props) => {
 				className='text-4xl lg:text-6xl font-semibold flex flex-col uppercase'
 			>
 				Kennedy Mungai.
-				<span className='text-textGreen text-3xl lowercase'>
+				<span className='text-textDark text-3xl lowercase'>
 					I build things for the web
 				</span>
 			</motion.h1>
