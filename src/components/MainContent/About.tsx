@@ -1,3 +1,5 @@
+import SectionTitle from './SectionTitle'
+
 type Props = {}
 
 const About = (props: Props) => {
@@ -6,7 +8,7 @@ const About = (props: Props) => {
 			id='about'
 			className='max-w-containerSmall mx-auto py-10 lg:py-32 flex flex-col gap-8'
 		>
-			About
+			<SectionTitle />
 		</section>
 	)
 }
