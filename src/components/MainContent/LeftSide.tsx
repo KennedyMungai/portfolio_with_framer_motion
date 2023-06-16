@@ -1,4 +1,5 @@
 'use client'
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import {
 	SlSocialFacebook,
@@ -12,7 +13,12 @@ type Props = {}
 
 const LeftSide = (props: Props) => {
 	return (
-		<div className='w-full h-full flex flex-col items-center justify-end gap-4 text-textLight'>
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ delay: 1.5 }}
+			className='w-full h-full flex flex-col items-center justify-end gap-4 text-textLight'
+		>
 			<div className='flex flex-col items-center justify-center gap-4 text-textLight'>
 				<Link
 					href='https://www.github.com/KennedyMungai'
@@ -56,7 +62,7 @@ const LeftSide = (props: Props) => {
 				</Link>
 			</div>
 			<div className='w-[2px] h-32 bg-textDark'></div>
-		</div>
+		</motion.div>
 	)
 }
 
