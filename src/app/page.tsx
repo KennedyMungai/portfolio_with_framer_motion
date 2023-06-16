@@ -10,7 +10,7 @@ export default function Home() {
 				<div className='hidden xl:flex w-32 h-full fixed left-0 bottom-0'>
 					<LeftSide />
 				</div>
-				<div className=''></div>
+				<div className='w-full h-[88vh] xl:flex items-center justify-between gap-20'></div>
 				<div className='hidden xl:flex w-32 h-full fixed right-0 bottom-0'>
 					<RightSide />
 				</div>
