@@ -17,9 +17,14 @@ const Middle = (props: Props) => {
 			>
 				Hi, my name is
 			</motion.h3>
-			<h1 className=''>
+			<motion.h1
+				initial={{ y: 10, opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ duration: 0.5, delay: 0.8 }}
+				className=''
+			>
 				Kennedy Mungai.<span> I build things for the web</span>
-			</h1>
+			</motion.h1>
 		</section>
 	)
 }
