@@ -1,3 +1,11 @@
+import { TbBrandGithub } from 'react-icons/tb'
+import {
+	SlSocialYoutube,
+	SlSocialFacebook,
+	SlSocialLinkedIn,
+	SlSocialInstagram
+} from 'react-icons/sl'
+
 type Props = {}
 
 const LeftSide = (props: Props) => {
