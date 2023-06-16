@@ -21,9 +21,13 @@ const Middle = (props: Props) => {
 				initial={{ y: 10, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5, delay: 0.8 }}
-				className=''
+				className='text-4xl lg:text-6xl font-semibold flex flex-col uppercase'
 			>
-				Kennedy Mungai.<span> I build things for the web</span>
+				Kennedy Mungai.
+				<span className='text-textGreen text-3xl'>
+					{' '}
+					I build things for the web
+				</span>
 			</motion.h1>
 		</section>
 	)
