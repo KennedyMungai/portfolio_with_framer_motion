@@ -2,7 +2,7 @@
 type Props = {}
 
 const Middle = (props: Props) => {
-	return <div>Middle</div>
+	return <section id='Home'>Middle</section>
 }
 
 export default Middle
