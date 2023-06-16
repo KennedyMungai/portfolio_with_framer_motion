@@ -8,8 +8,8 @@ type Props = {}
 const RightSide = (props: Props) => {
 	return (
 		<motion.div
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
+			initial={{ opacity: 0, y: 70 }}
+			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 1.5 }}
 			className='w-full h-full flex flex-col items-center justify-end gap-6 text-textLight'
 		>
