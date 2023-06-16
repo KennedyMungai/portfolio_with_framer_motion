@@ -7,7 +7,7 @@ const SectionTitle = (props: Props) => {
 				01.{' '}
 			</span>
 			About Me
-			<span className='hidden md:inline-flex flex md:w-60 lg:w-72 h-[.5px] bg-gray-700 ml-6'></span>
+			<span className='hidden md:inline-flex md:w-60 lg:w-72 h-[.5px] bg-gray-700 ml-6'></span>
 		</h2>
 	)
 }
