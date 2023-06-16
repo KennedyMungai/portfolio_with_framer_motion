@@ -1,4 +1,5 @@
 import LeftSide from '@/components/MainContent/LeftSide'
+import RightSide from '@/components/MainContent/RightSide'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
 
@@ -11,7 +12,9 @@ export default function Home() {
 					<LeftSide />
 				</div>
 				<div className=''></div>
-				<div className=''></div>
+				<div className=''>
+					<RightSide />
+				</div>
 			</div>
 		</main>
 	)
