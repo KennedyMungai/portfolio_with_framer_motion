@@ -35,7 +35,67 @@ const About = (props: Props) => {
 						at🏄
 					</p>
 					<ul>
-						<li></li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								Javascript
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								Typescript
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								HTML and CSS
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								Docker and Docker Compose
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								MySQL
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								MongoDB
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								Redis
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								FastAPI
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								TensorFlow
+							</span>
+						</li>
+						<li>
+							<span className='flex items-center gap-3'>
+								<AiFillThunderbolt className='text-yellow-500' />{' '}
+								Data Science with Numpy, Pandas, SciKit Learn
+								and MatplotLib
+							</span>
+						</li>
 					</ul>
 				</div>
 				<div className=''></div>
