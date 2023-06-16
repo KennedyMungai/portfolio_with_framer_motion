@@ -1,4 +1,5 @@
 import LeftSide from '@/components/MainContent/LeftSide'
+import Middle from '@/components/MainContent/Middle'
 import RightSide from '@/components/MainContent/RightSide'
 import NavBar from '@/components/NavBar'
 
@@ -10,7 +11,9 @@ export default function Home() {
 				<div className='hidden xl:flex w-32 h-full fixed left-0 bottom-0'>
 					<LeftSide />
 				</div>
-				<div className='w-full h-[88vh] xl:flex items-center justify-between gap-20'></div>
+				<div className='h-[88vh] mx-auto p-4'>
+					<Middle />
+				</div>
 				<div className='hidden xl:flex w-32 h-full fixed right-0 bottom-0'>
 					<RightSide />
 				</div>
