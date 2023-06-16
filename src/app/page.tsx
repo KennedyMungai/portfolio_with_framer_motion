@@ -11,7 +11,7 @@ export default function Home() {
 					<LeftSide />
 				</div>
 				<div className=''></div>
-				<div className=''>
+				<div className='hidden xl:flex w-32 h-full fixed right-0 bottom-0'>
 					<RightSide />
 				</div>
 			</div>
