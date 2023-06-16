@@ -1,4 +1,5 @@
 import SectionTitle from './SectionTitle'
+import { AiFillThunderbolt } from 'react-icons/ai'
 
 type Props = {}
 
@@ -29,6 +30,13 @@ const About = (props: Props) => {
 						AI and Machine Learning logic for functionality like
 						recommendation systems and Computer vision.
 					</p>
+					<p>
+						This is a list of all the technologies I am proficient
+						at🏄
+					</p>
+					<ul>
+						<li></li>
+					</ul>
 				</div>
 				<div className=''></div>
 			</div>
