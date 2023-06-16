@@ -1,6 +1,7 @@
 'use client'
 import {motion} from 'framer-motion'
 import Link from 'next/link'
+import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
 type Props = {}
 
