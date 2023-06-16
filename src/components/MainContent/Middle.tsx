@@ -42,7 +42,9 @@ const Middle = (props: Props) => {
 				experience creating machine learning models which serve as
 				recommendation systems for the backend of my apps.
 				<span className='text-textGreen cursor-pointer flex mt-5'>
-					<Link href='#Contact'>Get in touch</Link>
+					<Link href='#Contact' className='hover:underline'>
+						Learn More
+					</Link>
 				</span>
 			</motion.p>
 		</section>
