@@ -2,7 +2,6 @@ import LeftSide from '@/components/MainContent/LeftSide'
 import Middle from '@/components/MainContent/Middle'
 import RightSide from '@/components/MainContent/RightSide'
 import NavBar from '@/components/NavBar'
-import { motion } from 'framer-motion'
 
 
 export default function Home() {
