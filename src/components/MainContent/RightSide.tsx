@@ -10,7 +10,7 @@ const RightSide = (props: Props) => {
 		<motion.div
 			initial={{ opacity: 0, y: 70 }}
 			animate={{ opacity: 1, y: 0 }}
-			transition={{ duration: 1.5 }}
+			transition={{ duration: 1.5, delay: 1 }}
 			className='w-full h-full flex flex-col items-center justify-end gap-6 text-textLight'
 		>
 			<Link href='mailto:kennedymungaifmab@gmail.com'>
