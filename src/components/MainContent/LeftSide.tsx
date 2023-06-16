@@ -54,6 +54,7 @@ const LeftSide = (props: Props) => {
 					</span>
 				</Link>
 			</div>
+			<div className='w-[2px] h-32 bg-textDark'></div>
 		</div>
 	)
 }
