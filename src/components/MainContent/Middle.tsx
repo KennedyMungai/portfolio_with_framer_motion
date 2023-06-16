@@ -1,5 +1,6 @@
 'use client'
 import {motion} from 'framer-motion'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -40,6 +41,9 @@ const Middle = (props: Props) => {
 				user friendly experiences for my users. I also have a lot of
 				experience creating machine learning models which serve as
 				recommendation systems for the backend of my apps.
+				<span className='text-textGreen cursor-pointer flex mt-5'>
+					<Link href='#Contact'>Get in touch</Link>
+				</span>
 			</motion.p>
 		</section>
 	)
