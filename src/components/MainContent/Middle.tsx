@@ -61,7 +61,7 @@ const Middle = (props: Props) => {
 			</motion.p>
 			<Link
 				href={'#projects'}
-				className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 max-w-[20rem]'
+				className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 max-w-[15rem] text-center'
 			>
 				Check Out My Projects
 			</Link>
