@@ -1,5 +1,6 @@
 import SectionTitle from './SectionTitle'
 import { AiFillThunderbolt } from 'react-icons/ai'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -98,7 +99,15 @@ const About = (props: Props) => {
 						</li>
 					</ul>
 				</div>
-				<div className=''></div>
+				<div className=''>
+					<Image
+						src='/images/Profile.jpg'
+						width={300}
+						height={300}
+						alt={'Avatar'}
+						className='rounded-full'
+					/>
+				</div>
 			</div>
 		</section>
 	)
