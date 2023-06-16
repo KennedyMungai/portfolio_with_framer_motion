@@ -16,7 +16,7 @@ const LeftSide = (props: Props) => {
 		<motion.div
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
-			transition={{ delay: 1.5 }}
+			transition={{ duration: 1.5 }}
 			className='w-full h-full flex flex-col items-center justify-end gap-4 text-textLight'
 		>
 			<div className='flex flex-col items-center justify-center gap-4 text-textLight'>
