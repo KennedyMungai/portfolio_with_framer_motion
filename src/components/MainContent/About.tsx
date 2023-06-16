@@ -9,6 +9,10 @@ const About = (props: Props) => {
 			className='max-w-containerSmall mx-auto py-10 lg:py-32 flex flex-col gap-8'
 		>
 			<SectionTitle title={'About'} title_number={1} />
+			<div className=''>
+				<div className=''></div>
+				<div className=''></div>
+			</div>
 		</section>
 	)
 }
