@@ -1,8 +1,8 @@
+import About from '@/components/MainContent/About'
 import LeftSide from '@/components/MainContent/LeftSide'
 import Middle from '@/components/MainContent/Middle'
 import RightSide from '@/components/MainContent/RightSide'
 import NavBar from '@/components/NavBar'
-
 
 export default function Home() {
 	return (
@@ -14,6 +14,7 @@ export default function Home() {
 				</div>
 				<div className='h-[88vh] mx-auto p-4'>
 					<Middle />
+					<About />
 				</div>
 				<div className='hidden xl:flex w-32 h-full fixed right-0 bottom-0'>
 					<RightSide />
