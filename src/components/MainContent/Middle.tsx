@@ -27,7 +27,7 @@ const Middle = (props: Props) => {
 			>
 				<span>
 					<Typewriter
-						words={['John', 'Kennedy', 'Mungai']}
+						words={['Kennedy', 'Mungai', 'Kennedy Mungai']}
 						loop={3}
 						cursor
 						cursorStyle='_'
