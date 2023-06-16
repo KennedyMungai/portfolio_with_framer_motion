@@ -1,7 +1,7 @@
 type Props = {}
 
 const About = (props: Props) => {
-	return <div>About</div>
+	return <section>About</section>
 }
 
 export default About
