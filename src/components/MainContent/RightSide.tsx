@@ -1,7 +1,17 @@
+import Link from 'next/link'
+
 type Props = {}
 
 const RightSide = (props: Props) => {
-	return <div>RightSide</div>
+	return (
+		<div className='w-full h-full flex flex-col items-center justify-end gap-6 text-textLight'>
+			<Link href='mailto:kennedymungaifmab@gmail.com'>
+				<p className='text-sm rotate-90 w-72 tracking-wide text-textGreen'>
+					My Email Address
+				</p>
+			</Link>
+		</div>
+	)
 }
 
 export default RightSide
