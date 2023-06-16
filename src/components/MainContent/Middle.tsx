@@ -1,7 +1,7 @@
 'use client'
 import {motion} from 'framer-motion'
 import Link from 'next/link'
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 
 type Props = {}
 
@@ -25,7 +25,18 @@ const Middle = (props: Props) => {
 				transition={{ duration: 0.5, delay: 0.8 }}
 				className='text-4xl lg:text-6xl font-semibold flex flex-col uppercase'
 			>
-				Kennedy Mungai.
+				<span>
+					<Typewriter
+						words={['John', 'Kennedy', 'Mungai']}
+						loop={3}
+						cursor
+						cursorStyle='_'
+						cursorColor='#fff'
+						typeSpeed={70}
+						deleteSpeed={50}
+						delaySpeed={1000}
+					/>
+				</span>
 				<span className='text-textDark text-3xl lowercase'>
 					I build things for the web
 				</span>
