@@ -10,6 +10,9 @@ const Middle = (props: Props) => {
 			<h3 className='text-textGreen text-lg tracking-wide'>
 				Hi, my name is
 			</h3>
+			<h1 className=''>
+				Kennedy Mungai.<span> I build things for the web</span>
+			</h1>
 		</section>
 	)
 }
