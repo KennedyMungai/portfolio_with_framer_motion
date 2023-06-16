@@ -21,22 +21,34 @@ const LeftSide = (props: Props) => {
 						<TbBrandGithub size={30} />
 					</span>
 				</Link>
-				<Link href='https://https.www.youtube.com/channel/KennedyMungai'>
+				<Link
+					href='https://https.www.youtube.com/channel/KennedyMungai'
+					target='_blank'
+				>
 					<span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
 						<SlSocialYoutube size={30} />
 					</span>
 				</Link>
-				<Link href='https://www.facebook.com/kennedy.mungai.9'>
+				<Link
+					href='https://www.facebook.com/kennedy.mungai.9'
+					target='_blank'
+				>
 					<span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
 						<SlSocialFacebook size={30} />
 					</span>
 				</Link>
-				<Link href='https://www.linkedin.com/in/kennedy-mungai-a8b5b917b'>
+				<Link
+					href='https://www.linkedin.com/in/kennedy-mungai-a8b5b917b'
+					target='_blank'
+				>
 					<span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
 						<SlSocialLinkedin size={30} />
 					</span>
 				</Link>
-				<Link href='https://www.instagram.com/kennedy_mungai'>
+				<Link
+					href='https://www.instagram.com/kennedy_mungai'
+					target='_blank'
+				>
 					<span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
 						<SlSocialInstagram size={30} />
 					</span>
